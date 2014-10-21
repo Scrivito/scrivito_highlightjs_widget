@@ -1,2 +1,2 @@
-//= require highlight.min
-//= require init
+//= require scrivito_highlightjs/highlight.min
+//= require scrivito_highlightjs/init

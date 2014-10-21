@@ -1,4 +1,4 @@
-class HighlighjsWidget < Widget
+class HighlightjsWidget < Widget
 
   DEFAULT_THEME = "default"
 

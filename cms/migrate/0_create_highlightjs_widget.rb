@@ -1,4 +1,4 @@
-class CreateFlickrWidget < ::Scrivito::Migration
+class CreateHighlightjsWidget < ::Scrivito::Migration
   def up
     Scrivito::ObjClass.create(
       name: 'HighlightjsWidget',

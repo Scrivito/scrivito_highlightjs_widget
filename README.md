@@ -11,15 +11,15 @@ Add this line to your application's `Gemfile`:
 
 Add this line to your application javascript manifest:
 
-    /= require scrivito_highlightjs/application
+    //= require scrivito_highlightjs/application
 
 Add this line to your application stylesheet manifest for the default theme:
 
-    * require scrivito_highlightjs/application
+    *= require scrivito_highlightjs/application
 
 To add an alternate theme create it in your asset folder and add it to your manifest:
 
-    * reqire alternateTheme
+    *= require alternateTheme
 
 Alternate themes can be found at https://highlightjs.org/static/test.html.
 
