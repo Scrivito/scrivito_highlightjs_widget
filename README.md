@@ -13,13 +13,17 @@ Add this line to your application javascript manifest:
 
     //= require scrivito_highlightjs/application
 
+Add this line to your editing javascript manifest:
+
+    //= require scrivito_highlightjs/editing
+
 Add this line to your application stylesheet manifest for the default theme:
 
     *= require scrivito_highlightjs/application
 
 To add an alternate theme create it in your asset folder and add it to your manifest:
 
-    *= require alternateTheme
+    *= require yourAlternateTheme
 
 Alternate themes can be found at https://highlightjs.org/static/test.html.
 
@@ -31,7 +35,7 @@ After that, execute:
     $ rake cms:migrate:publish
 
 ## Changelog
-See [Changelog](https://github.com/infopark/scrivito_accordion/blob/master/CHANGELOG.md) for more
+See [Changelog](https://github.com/infopark/scrivito_highlightjs/blob/master/CHANGELOG.md) for more
 details.
 
 ## Contributing
