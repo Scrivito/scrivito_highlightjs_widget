@@ -1,5 +1,9 @@
 # Changelog: Scrivito Flickr
 
+## 1.0.1
+
+* Load highlight after edit source in edit view
+
 ## 1.0.0
 
 * Rename to new naming convention
