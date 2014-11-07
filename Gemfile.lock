@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_highlightjs_widget (1.0.0)
+    scrivito_highlightjs_widget (1.0.1)
       bundler
       scrivito
 
