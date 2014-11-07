@@ -7,19 +7,19 @@ A Widget for Scrivito to highlight Code using highlightjs.
 
 Add this line to your application's `Gemfile`:
 
-    gem 'scrivito_highlightjs'
+    gem 'highlightjs_widget'
 
 Add this line to your application javascript manifest:
 
-    //= require scrivito_highlightjs/application
+    //= require highlightjs_widget/application
 
 Add this line to your editing javascript manifest:
 
-    //= require scrivito_highlightjs/editing
+    //= require highlightjs_widget/editing
 
 Add this line to your application stylesheet manifest for the default theme:
 
-    *= require scrivito_highlightjs/application
+    *= require highlightjs_widget/application
 
 To add an alternate theme create it in your asset folder and add it to your manifest:
 
@@ -35,12 +35,12 @@ After that, execute:
     $ rake cms:migrate:publish
 
 ## Changelog
-See [Changelog](https://github.com/infopark/scrivito_highlightjs/blob/master/CHANGELOG.md) for more
+See [Changelog](https://github.com/Scrivito/scrivito_highlightjs_widget/blob/master/CHANGELOG.md) for more
 details.
 
 ## Contributing
 
-1. Fork it ( https://github.com/infopark/scrivito_accordion/merge_tags/fork )
+1. Fork it ( https://github.com/Scrivito/scrivito_highlightjs_widget/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

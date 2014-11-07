@@ -1,5 +1,9 @@
 # Changelog: Scrivito Flickr
 
+## 1.0.0
+
+* Rename to new naming convention
+
 ## 0.0.2
 
 * Edit Code inline with text editor

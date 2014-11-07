@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_highlightjs/version"
+require "scrivito_highlightjs_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "scrivito_highlightjs"
-  s.version     = ScrivitoHighlightjs::VERSION
+  s.name        = "scrivito_highlightjs_widget"
+  s.version     = ScrivitoHighlightjsWidget::VERSION
 
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
@@ -17,13 +17,13 @@ Gem::Specification.new do |s|
   s.license     = "LGPL-3.0"
 
   s.files = Dir[
-    "{app,lib,cms}/**/*",
+    "{app,lib,scrivito}/**/*",
     "LICENSE",
     "Rakefile"
   ]
 
   s.add_dependency 'bundler'
-  s.add_dependency 'scrivito_sdk'
+  s.add_dependency 'scrivito'
 
   s.add_development_dependency 'rake'
 end
