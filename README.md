@@ -32,9 +32,9 @@ Alternate themes can be found at https://highlightjs.org/static/test.html.
 After that, execute:
 
     $ bundle
-    $ rake cms:migrate:install
-    $ rake cms:migrate
-    $ rake cms:migrate:publish
+    $ rake scrivito:migrate:install
+    $ rake scrivito:migrate
+    $ rake scrivito:migrate:publish
 
 ## Changelog
 See [Changelog](https://github.com/Scrivito/scrivito_highlightjs_widget/blob/master/CHANGELOG.md) for more
