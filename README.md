@@ -9,7 +9,7 @@ A Widget for Scrivito to highlight Code using highlightjs.
 
 Add this line to your application's `Gemfile`:
 
-    gem 'highlightjs_widget'
+    gem 'scrivito_highlightjs_widget'
 
 Add this line to your application javascript manifest:
 
