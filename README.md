@@ -13,21 +13,19 @@ Add this line to your application's `Gemfile`:
 
 Add this line to your application javascript manifest:
 
-    //= require highlightjs_widget/application
-
-Add this line to your editing javascript manifest:
-
-    //= require highlightjs_widget/editing
+    //= require scrivito_highlightjs_widget
 
 Add this line to your application stylesheet manifest for the default theme:
 
-    *= require highlightjs_widget/application
+    *= require scrivito_highlightjs_widget
+
+## Customization
 
 To add an alternate theme create it in your asset folder and add it to your manifest:
 
     *= require yourAlternateTheme
 
-Alternate themes can be found at https://highlightjs.org/static/test.html.
+Alternate themes can be found at https://highlightjs.org/static/demo/.
 
 After that, execute:
 
