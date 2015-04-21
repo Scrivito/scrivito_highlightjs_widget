@@ -1,4 +1,6 @@
 class HighlightjsWidget < Widget
+  attribute :code, :string
+  attribute :language, :string
 
   DEFAULT_THEME = "default"
 
