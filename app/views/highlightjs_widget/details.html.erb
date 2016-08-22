@@ -1,15 +1,15 @@
-<%= scrivito_details_for 'Code' do %>
+<%= scrivito_details_for t('scrivito_highlightjs_widget.details.code', default: 'Code') do %>
   <pre class="highlightjs">
-    <%= scrivito_tag(:textarea, widget, :code, data: {editor: "textfield-editor"}, style: "width:100%;height:168px;") %>
+    <%= scrivito_tag(:textarea, widget, :code, class: 'form-control', rows: 5) %>
   </pre>
 <% end %>
 
-<%= scrivito_details_for 'Language' do %>
+<%= scrivito_details_for t('scrivito_highlightjs_widget.details.language', default: 'Language') do %>
   <div class="alert alert-info">
-    If automatic language detection does not work for you.
-    <p>
-      Enter <strong>nohighlight</strong> if no highlighting needed.
-    </p>
+    <%= t('scrivito_highlightjs_widget.thumbnail.hint', default: 'If the automatic code highlighting does not work for you.') %>
+  </div>
+  <div class="alert alert-info">
+    <%= t('scrivito_highlightjs_widget.thumbnail.no_highlight', default: 'Enter nohighligh if no highlighting needed.') %>
   </div>
   <%= scrivito_tag(:div, widget, :language) %>
 <% end %>
